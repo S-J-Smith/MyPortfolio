@@ -8,11 +8,23 @@ table, thead, tr, th {
     border: 2px solid rgb(8, 8, 8);
     border-width: 0.5px;
     margin: auto; 
-    width: 1650px;
+    width: 1600px;
     height: 100px;
     font-size: large; 
 }
 
 .align-center {
     text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+#wallpaper {
+    background-color: rgb(76, 171, 226);
+}
+
+.nav-color {
+    background-color: cadetblue;
 }

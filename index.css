@@ -4,15 +4,6 @@
     color: rgb(0, 0, 0);
 }
 
- {
-    border: 2px solid rgb(8, 8, 8);
-    border-width: 0.5px;
-    margin: auto; 
-    width: 1600px;
-    height: 100px;
-    
-}
-
 .align-center {
     text-align: center;
 }

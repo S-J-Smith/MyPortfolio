@@ -15,6 +15,7 @@ li {
     font-weight: 900;
     font-size: xx-large;
     border: solid rgb(0, 0, 10);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
@@ -22,4 +23,8 @@ h1 {
     font-size: xx-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkgreen;
+}
+
+h2, h3 {
+    font-family: 'Quicksand', sans-serif;
 }

@@ -1,0 +1,25 @@
+.align-center ,h1, nav {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    font-weight: 900;
+    font-size: xx-large;
+    border: solid rgb(0, 0, 10);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}

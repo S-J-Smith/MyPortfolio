@@ -1,3 +1,9 @@
+#default {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
 .align-center ,h1, nav {
     text-align: center;
 }
@@ -22,9 +28,13 @@ h1 {
     font-weight: 900;
     font-size: xx-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkgreen;
+    color: rgb(81, 0, 128);
 }
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
+}
+
+#wallpaper {
+    background-color: rgb(76, 171, 226);
 }

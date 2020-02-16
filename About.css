@@ -1,10 +1,8 @@
 #default {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: normal;
-    color: rgb(0, 0, 0);
-}
-
-.align-center ,h1, nav {
+    color: #03060a;
+    background-color: rgb(76, 171, 226);
     text-align: center;
 }
 
@@ -16,25 +14,38 @@
     text-align: right;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 li {
-    display: inline-block;
-    font-weight: 900;
-    font-size: xx-large;
-    border: solid rgb(0, 0, 10);
-    font-family: 'Noto Sans', sans-serif;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
 }
 
 h1 {
     font-weight: 900;
     font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(81, 0, 128);
 }
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
-}
-
-#wallpaper {
-    background-color: rgb(76, 171, 226);
 }

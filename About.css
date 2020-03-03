@@ -14,7 +14,7 @@
     text-align: right;
 }
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,11 +26,11 @@ ul {
     
 }
 
-li {
+ .navigation ul li {
     display: inline-block;
 }
 
-li a {
+ .navigation ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -38,7 +38,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.navigation ul li a:hover {
     background-color: #111;
 }
 
@@ -50,3 +50,38 @@ h1 {
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: right;
+}
+
+li a {
+    color: blue;
+}
+
+li a:hover {
+    color: purple;
+}
+
+.Background {
+    display: block;
+    padding: 10px 1000px 1px 10px;
+    line-height: 1.5;
+    position: relative;
+    right: 5px;
+}
+
+.Contact {
+    display: block;
+    padding: 10px 10px 1px 1500px;
+    line-height: 1.5;
+    position: relative;
+    right: 5px;
+}
+

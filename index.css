@@ -9,8 +9,11 @@ html {
     text-align: center;
 }
 
-p {
-    font-size: 1.4rem;
+.container {
+    width: 1600px      
+}
+
+.container p {
 }
 
 ul {
@@ -21,8 +24,6 @@ ul {
     background-color: #333;
     align-content: center;
     position: relative;
-    width: auto;
-    
 }
 
 li {
@@ -30,7 +31,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 50px;

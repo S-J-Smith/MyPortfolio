@@ -7,38 +7,56 @@ html {
     color: #03060a;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 5%;
 }
 
-.container {
-    width: 1600px      
-}
-
-.container p {
+h2, p {
+    margin: auto;
+    width: 100%;
+    margin-top: 2%;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
     align-content: center;
-    position: relative;
+    padding: 15px 5px;
+    margin: 1px 2px;
 }
 
 li {
+    position: relative;
     display: inline-block;
 }
 
 li a {
-    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 50px;
+    padding: 1px 1px;
     text-decoration: underline;
     font-size: 1.5rem;
+    padding: 5px 10px;
 }
   
 li a:hover {
     background-color: #111;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 584px) {
+    li {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 510px) and (max-width: 2000px) {
+    p {
+        height: 75%;
+        line-height: 1.5;
+    }
+    footer {
+        margin-top: 5%;
+    }
+    section {
+        margin-bottom: 5%;
+    }
 }
